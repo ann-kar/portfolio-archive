@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="487173e2-ce81-4491-af02-837bc5d0f697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ann-kar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ak.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/firebase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/graphql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/inkscape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,17 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+            <state relative-caret-position="171">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -105,8 +73,8 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -129,11 +97,6 @@
             <path>
               <item name="ann-kar" type="b2602c69:ProjectViewProjectNode" />
               <item name="ann-kar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ann-kar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ann-kar" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,12 +168,12 @@
       <workItem from="1619085355616" duration="16250000" />
       <workItem from="1619176541177" duration="14799000" />
       <workItem from="1619197423881" duration="1613000" />
-      <workItem from="1619360670651" duration="5280000" />
+      <workItem from="1619360670651" duration="5820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88900000" />
+    <option name="totallyTimeSpent" value="89440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -275,13 +238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -305,10 +261,17 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="4" selection-end-column="15" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -321,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="171">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
         </state>
       </provider>
     </entry>
