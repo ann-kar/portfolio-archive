@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anna Karpiuk - portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<main class="main">
+    <section class="section section-container"></section>
+    <section class="section section-photo">
+        <div class="circle"></div>
+    </section>
+
+    <section class="section section-title">
+        <h1 class="title">
+            Hi, my name is Anna Karpiuk,<br>
+            I'm a Frontend Developer.
+        </h1>
+    </section>
+
+    <section class="section section-projects">
+        <div class="card" data-aos="slide-right">
+            <h4 class="card-title">project: <span class="card-title-name">donate clothes</span></h4>
+            <p class="card-tech">
+            <ul class="card-tech-list">
+                <li class="card-tech-list-item">React.js (react-router-dom, react-scroll)</li>
+                <li class="card-tech-list-item">SASS + BEM methodology</li>
+            </ul>
+            </p>
+            <p class="card-description">A website with a router, a form, an option to browse through a database
+                (fetch) with pagination, adapted for mobile phones.</p>
+            <a href="https://ann-kar.github.io/donate-clothes/" target="_blank">
+                <button class="btn-demo">DEMO</button>
+            </a>
+            <a href="https://github.com/ann-kar/donate-clothes" target="_blank">
+                <button class="btn-code">CODE</button>
+            </a>
+        </div>
+
+        <div class="card" data-aos="slide-right"></div>
+        <div class="card" data-aos="slide-left"></div>
+
+        <div class="card" data-aos="slide-left">
+            <h4 class="card-title">project: <span class="card-title-name">pandemic into pandas</span></h4>
+            <p class="card-tech">
+            <ul class="card-tech-list">
+                <li class="card-tech-list-item">vanilla Javascript</li>
+                <li class="card-tech-list-item">CSS</li>
+            </ul>
+            </p>
+            <p class="card-description">A Chrome extension for (A) changing
+                pandemic-related text and images into others or (B) changing triggering words in texts (e.g.
+                “pandemic” > “panda”). Designed for Polish websites.</p>
+            <a href="https://github.com/ann-kar/pandemic-into-pandas" target="_blank">
+                <button class="btn-code">CODE</button>
+            </a>
+        </div>
+
+        <div class="card" data-aos="slide-right">
+            <h4 class="card-title">project: <span class="card-title-name">portfolio</span></h4>
+            <p class="card-tech">
+            <ul class="card-tech-list">
+                <li class="card-tech-list-item">vanilla JS</li>
+                <li class="card-tech-list-item">SASS + AOS library</li>
+            </ul>
+            </p>
+            <p class="card-description">A self-designed website designed to showcase my skills and projects.</p>
+            <button class="btn-demo">DEMO</button>
+            <button class="btn-code">CODE</button>
+        </div>
+
+        <div class="card" data-aos="slide-left"></div>
+    </section>
+
+    <section class="section section-skills" data-aos="fade-in">
+        <h5 class="skills-title">MAIN SKILLS</h5>
+        <div class="skills-cnt">
+            <div class="skill-box">
+                <img src="assets/react.png" class="skill-icon">
+                <div class="skill-name">React.js</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/javascript.png" class="skill-icon">
+                <div class="skill-name">JavaScript (ES6)</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/html.png" class="skill-icon">
+                <div class="skill-name">HTML5</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/css3.png" class="skill-icon">
+                <div class="skill-name">CSS3</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/sass.png" class="skill-icon">
+                <div class="skill-name">SASS</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/git.png" class="skill-icon">
+                <div class="skill-name">GIT</div>
+            </div>
+        </div>
+
+        <h5 class="skills-title">ALSO INTERESTED IN</h5>
+        <div class="skills-cnt">
+            <div class="skill-box">
+                <img src="assets/firebase.png" class="skill-icon">
+                <div class="skill-name">Firebase</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/inkscape.png" class="skill-icon">
+                <div class="skill-name">SVG & Inkscape</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/typescript.png" class="skill-icon">
+                <div class="skill-name">Typescript</div>
+            </div>
+            <div class="skill-box">
+                <img src="assets/graphql.png" class="skill-icon">
+                <div class="skill-name">GraphQl</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact">
+        <div class="contact-main" data-aos="fade-in">
+            I’m open for new opportunities. If you have one for me, we should talk!
+            Drop me a line at: <span class="contact-main-strong">anna.paulina.karpiuk [at] gmail.com</span>
+        </div>
+    </section>
+</main>
+
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 400,
+        once: true
+    });
+</script>
+
+</body>
+
+</html>
