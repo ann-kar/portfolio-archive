@@ -86,7 +86,6 @@ html {
   border-bottom: 5px solid $contrast;
 }
 
-
 .section-title {
   margin-top: $section-margin + 50px - 20px;
   margin-bottom: $section-margin - 20px;
@@ -171,6 +170,34 @@ html {
   font-size: 20px;
   width: 80px;
   height: 80px;
+}
+
+.btn-demo-info {
+  position: absolute;
+  top: 50%;
+  width: 120px;
+  left: -130px;
+
+
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  background: $darkgray;
+  color: $lightgray;
+  font-weight: 300;
+  display: none;
+}
+
+.pandas-btn-demo {
+  position: relative;
+}
+
+.pandas-btn-demo:hover > .btn-demo-info {
+  display: block;
+}
+
+.inactive:hover {
+  transform: none;
 }
 
 .card-title {
