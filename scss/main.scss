@@ -5,6 +5,57 @@ $lightgray: #f8f7f0;
 $darkgray: #5b5b5b;
 $contrast: #4d4637;
 $section-margin: 100px;
+$background: #fff;
+
+@mixin card-project {
+  background: lighten($main, 20%);
+  color: $contrast;
+
+  &:hover {
+    box-shadow: 0 0 10px lighten($main, 10%);
+  }
+
+  .btn-demo, .btn-code {
+    background: $contrast;
+    color: lighten($main, 20%);
+
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+}
+
+@mixin card-exercise {
+  background: transparent;
+  color: $darkgray;
+
+  .btn-demo, .btn-code {
+    background: $darkgray;
+    color: $lightgray;
+
+    &:hover {
+      background: $main;
+    }
+  }
+
+  &::after {
+    content: " ";
+    position: absolute;
+    background: $background;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    opacity: 0.8;
+  }
+
+  &:hover {
+    &::after {
+      z-index: -1;
+    }
+  }
+}
 
 * {
   margin: 0;
@@ -12,6 +63,7 @@ $section-margin: 100px;
   border: none;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
 html {
@@ -33,7 +85,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  background: linear-gradient($main, #fff);
+  background: linear-gradient($main, $background);
 }
 
 .square {
@@ -66,7 +118,7 @@ html {
 }
 
 .section-photo {
-  background: #fff;
+  background: $background;
   position: absolute;
   width: 220px;
   height: 220px;
@@ -111,47 +163,22 @@ html {
   position: relative;
   text-align: center;
   padding: 20px;
-}
 
-.card:nth-child(4n + 1) {
-  background: $lightgray;
-  color: $darkgray;
-
-  &:hover {
-    box-shadow: 0 0 10px darken($lightgray, 10%);
-  }
-
-  .btn-demo, .btn-code {
-    background: $darkgray;
-    color: $lightgray;
-
-    &:hover {
-      background: $main;
-    }
-  }
-}
-
-.card:nth-child(4n + 2), .card:nth-child(4n + 3) {
-  background: transparent;
 }
 
 .card:nth-child(4n) {
-  background: lighten($main, 20%);
-  color: $contrast;
-
-  &:hover {
-    box-shadow: 0 0 10px darken($main, 10%);
-  }
-
-  .btn-demo, .btn-code {
-    background: $contrast;
-    color: lighten($main, 20%);
-
-    &:hover {
-      filter: grayscale(100%);
-    }
-  }
+  @include card-project;
+  background: lighten($main, 30%);
 }
+
+.card:nth-child(4n + 2), .card:nth-child(4n + 3) {
+@include card-exercise;
+}
+
+.card:nth-child(4n + 1) {
+  @include card-project;
+}
+
 
 .btn-demo, .btn-code {
   margin: 0 25px 20px 25px;
@@ -161,7 +188,7 @@ html {
   font-size: 16px;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     transition: 0.5s;
   }
 }
@@ -174,11 +201,13 @@ html {
 
 .btn-demo-info {
   position: absolute;
-  top: 50%;
-  width: 120px;
-  left: -130px;
-
-
+  width: 250px;
+  height: 26px;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
   padding: 5px;
   font-size: 14px;
@@ -188,11 +217,8 @@ html {
   display: none;
 }
 
-.pandas-btn-demo {
-  position: relative;
-}
 
-.pandas-btn-demo:hover > .btn-demo-info {
+.pandas-btn-demo:hover + .btn-demo-info {
   display: block;
 }
 
@@ -206,16 +232,23 @@ html {
   font-size: 1.5em;
   font-weight: 200;
 
-  &-title-name {
+  &-name {
     font-weight: 300;
   }
 }
 
 .card-description {
   font-size: 1.1em;
+  padding: 1em 0;
   line-height: 1.5em;
-  padding: 20px 0;
+  height: 6.5em;
   font-weight: 300;
+
+  &-link {
+    color: inherit;
+    font-weight: 400;
+    cursor: pointer;
+  }
 }
 
 .card-tech {
@@ -244,7 +277,7 @@ html {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: transparent;
   width: 90%;
   padding: 20px;
   margin-bottom: 40px;
@@ -259,7 +292,7 @@ html {
 
 .skill-box {
   width: 100px;
-  height: 100px;
+  height: 130px;
   margin: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -297,7 +330,7 @@ html {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  top: -30px;
+  bottom: 50px;
   left: 0;
   right: 0;
   z-index: 3;
