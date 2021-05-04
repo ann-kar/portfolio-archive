@@ -1,0 +1,28 @@
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+@for $i from 0 through 10 {
+
+  #square-#{$i + 1} {
+    border-radius: 50%;
+    background: lighten($main, $i * 2%);
+    width: $i * 6px;
+    height: $i * 6px;
+    margin: 2px;
+    margin-top: $i * 3px;
+    animation: appear both;
+    animation-duration: 0.2s * $i;
+    animation-delay: 0.2s * $i;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

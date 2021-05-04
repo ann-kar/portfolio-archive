@@ -1,0 +1,33 @@
+
+.section-contact {
+  width: 100%;
+  background: linear-gradient(#fff, $main);
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact-main {
+  position: absolute;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: #fff;
+  border-radius: 10px;
+  color: $darkgray;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 300;
+  padding: 40px;
+  text-align: center;
+
+  &-strong {
+    font-weight: 400;
+  }
+}
