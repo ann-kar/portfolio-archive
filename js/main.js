@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // 1. Circle pattern
 
     const header = document.querySelector(".section-header");
-    const contact = document.querySelector(".section-contact");
+    const contact = document.querySelector(".contact-background");
 
     for (let i=1; i<=200; i++) {
         let num = Math.floor(Math.random() * (10 - 1) + 1);
