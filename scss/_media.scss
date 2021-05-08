@@ -1,4 +1,13 @@
+@media screen and (max-width: 430px) {
+
+  .section-contact {
+    height: 250px;
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (max-width: 700px) {
+
   .section-projects {
     background: $lightgray;
   }
@@ -15,13 +24,23 @@
     margin-bottom: $section-margin / 2
   }
 
-  .contact {
-    height: 250px;
+  .section-contact {
+    font-size: 1.2rem;
   }
 
   .contact-main {
     width: 80%;
     padding: 20px;
-    font-size: 1.3em;
+  }
+
+  .contact-button {
+    font-size: 1em;
+    height: 48px; // tap target
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-button-tooltip {
+    bottom: -10px;
   }
 }
