@@ -250,24 +250,25 @@ html {
   width: 80px;
   height: 80px; }
 
-.btn-demo-info {
+.btn-demo-tooltip {
+  display: none;
   position: absolute;
-  width: 250px;
-  height: 26px;
-  bottom: 8px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 5px;
-  padding: 5px;
+  height: 26px;
+  width: 250px;
+  line-height: 26px;
   font-size: 14px;
   background: #5b5b5b;
   color: #f8f7f0;
   font-weight: 300;
-  display: none; }
+  width: 250px;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
 
-.pandas-btn-demo:hover + .btn-demo-info {
+.pandas-btn-demo:hover + .btn-demo-tooltip {
   display: block; }
 
 .inactive:hover {
@@ -375,22 +376,20 @@ html {
 .contact-button-tooltip {
   display: none;
   position: absolute;
-  width: 250px;
+  border-radius: 5px;
   height: 26px;
+  width: 250px;
+  line-height: 26px;
+  font-size: 14px;
+  background: #5b5b5b;
+  color: #f8f7f0;
+  font-weight: 300;
+  width: 150px;
   bottom: 8px;
   left: 0;
   right: 0;
   margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 14px;
-  background: #5b5b5b;
-  color: #f8f7f0;
-  font-weight: 300; }
-
-.visible {
-  display: block; }
+  margin-right: auto; }
 
 .contact-background {
   width: 100%;
@@ -425,3 +424,6 @@ html {
 
 .section {
   width: 100%; }
+
+.visible {
+  display: block; }

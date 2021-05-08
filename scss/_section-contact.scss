@@ -32,26 +32,13 @@
 }
 
 .contact-button-tooltip {
-  display: none;
-  position: absolute;
-  width: 250px;
-  height: 26px;
+  @include tooltip;
+  width: 150px;
   bottom: 8px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 14px;
-  background: $darkgray;
-  color: $lightgray;
-  font-weight: 300;
-
-}
-
-.visible {
-  display: block;
 }
 
 .contact-background {

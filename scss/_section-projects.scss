@@ -96,25 +96,17 @@
   height: 80px;
 }
 
-.btn-demo-info {
-  position: absolute;
+.btn-demo-tooltip {
+  @include tooltip;
   width: 250px;
-  height: 26px;
   bottom: 8px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 14px;
-  background: $darkgray;
-  color: $lightgray;
-  font-weight: 300;
-  display: none;
 }
 
-.pandas-btn-demo:hover + .btn-demo-info {
+.pandas-btn-demo:hover + .btn-demo-tooltip {
   display: block;
 }
 

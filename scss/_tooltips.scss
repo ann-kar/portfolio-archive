@@ -1,0 +1,14 @@
+@mixin tooltip {
+
+  display: none;
+  position: absolute;
+  border-radius: 5px;
+  height: 26px;
+  width: 250px;
+  line-height: 26px;
+  font-size: 14px;
+  background: $darkgray;
+  color: $lightgray;
+  font-weight: 300;
+
+}

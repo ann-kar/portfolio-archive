@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./tooltips";
 @import "./reset";
 @import "./pattern";
 @import "./section-header";
@@ -16,4 +17,8 @@
 
 .section {
   width: 100%
+}
+
+.visible {
+  display: block;
 }
