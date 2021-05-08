@@ -424,14 +424,11 @@ html {
     .card.exercise::after {
       z-index: -1; } }
 
-@media screen and (max-width: 430px) {
-  .section-contact {
-    height: 250px;
-    font-size: 1.1rem; } }
-
 @media screen and (max-width: 700px) {
   .card {
     width: 100%; }
+  .card-title {
+    line-height: initial; }
   .card-description {
     height: initial;
     margin-bottom: 1rem; }
@@ -449,6 +446,11 @@ html {
     align-items: center; }
   .contact-button-tooltip {
     bottom: -10px; } }
+
+@media screen and (max-width: 430px) {
+  .section-contact {
+    height: 250px;
+    font-size: 1.1rem; } }
 
 .main {
   display: flex;
