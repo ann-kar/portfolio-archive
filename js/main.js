@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
+    // 1. Circle pattern
+
     const header = document.querySelector(".section-header");
     const contact = document.querySelector(".section-contact");
 
@@ -18,4 +20,21 @@ document.addEventListener("DOMContentLoaded", function() {
         div.id = "square-" + num;
         contact.appendChild(div);
     }
+
+    // 2. Contact button clickhandler
+
+    const contactButton = document.querySelector(".contact-button");
+    const contactButtonTooltip = document.querySelector(".contact-button-tooltip");
+
+    contactButton.addEventListener("click", () => {
+
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText("anna.paulina.karpiuk@gmail.com");
+            console.log('Clipboard API available');
+        }
+
+        contactButtonTooltip.classList.add("visible");
+        setTimeout(() => contactButtonTooltip.classList.remove("visible"), 1000)
+    })
+
 });

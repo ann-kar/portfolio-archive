@@ -376,6 +376,26 @@ html {
   .contact-main-strong {
     font-weight: 400; }
 
+.contact-button-tooltip {
+  display: none;
+  position: absolute;
+  width: 250px;
+  height: 26px;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  background: #5b5b5b;
+  color: #f8f7f0;
+  font-weight: 300; }
+
+.visible {
+  display: block; }
+
 @media screen and (max-width: 700px) {
   .section-projects {
     background: #f8f7f0; }
