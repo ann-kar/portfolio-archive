@@ -30,11 +30,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (navigator.clipboard) {
             navigator.clipboard.writeText("anna.paulina.karpiuk@gmail.com");
-            console.log('Clipboard API available');
+            contactButtonTooltip.style.width = "150px";
+        } else {
+            contactButtonTooltip.innerText = "anna.paulina.karpiuk@gmail.com";
         }
-
         contactButtonTooltip.classList.add("visible");
         setTimeout(() => contactButtonTooltip.classList.remove("visible"), 1000)
-    })
 
+    })
 });

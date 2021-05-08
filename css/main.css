@@ -257,6 +257,7 @@ html {
 .btn-demo-tooltip {
   display: none;
   position: absolute;
+  padding: 0 20px;
   border-radius: 5px;
   height: 26px;
   width: 250px;
@@ -265,7 +266,6 @@ html {
   background: #5b5b5b;
   color: #f8f7f0;
   font-weight: 300;
-  width: 250px;
   bottom: 8px;
   left: 0;
   right: 0;
@@ -386,6 +386,7 @@ html {
 .contact-button-tooltip {
   display: none;
   position: absolute;
+  padding: 0 20px;
   border-radius: 5px;
   height: 26px;
   width: 250px;
@@ -394,7 +395,7 @@ html {
   background: #5b5b5b;
   color: #f8f7f0;
   font-weight: 300;
-  width: 150px;
+  width: 250px;
   bottom: 8px;
   left: 0;
   right: 0;
