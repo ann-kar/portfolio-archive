@@ -184,13 +184,15 @@ html {
   color: #5b5b5b; }
 
 .section-projects {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
 
 .card {
   border-radius: 10px;
-  width: 550px;
+  width: 45%;
   position: relative;
   text-align: center;
   padding: 20px; }
@@ -240,19 +242,19 @@ html {
       filter: grayscale(100%); }
 
 .btn-demo, .btn-code {
-  margin: 0 25px 20px 25px;
-  width: 60px;
-  height: 60px;
+  margin: 0 2rem;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 50%;
-  font-size: 16px; }
+  font-size: 1rem; }
   .btn-demo:hover, .btn-code:hover {
     transform: scale(1.3);
     transition: 0.5s; }
 
 .btn-demo {
-  font-size: 20px;
-  width: 80px;
-  height: 80px; }
+  font-size: 1.2rem;
+  width: 4.2rem;
+  height: 4.2rem; }
 
 .btn-demo-tooltip {
   display: none;

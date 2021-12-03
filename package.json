@@ -8,7 +8,7 @@
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "sass": "node-sass --watch scss/main.scss css/main.css"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
